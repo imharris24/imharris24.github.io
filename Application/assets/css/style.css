@@ -1,0 +1,15 @@
+body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    width: auto;
+    height: auto;
+    background-color: wheat;
+}
+.bar {
+    width: 50%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.blank-space {
+    margin-top: 100px;
+}
