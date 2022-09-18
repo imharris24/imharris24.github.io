@@ -1,0 +1,51 @@
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: var(--bs-red);
+}
+
+.bg-primary {
+  background-color: var(--bs-red) !important;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: var(--bs-red);
+}
+
+a:focus, a:hover, a:active {
+  color: var(--bs-red);
+}
+
+a:hover {
+  color: var(--bs-red);
+}
+
+.nav-link {
+  display: block;
+  padding: .5rem 1rem;
+  color: var(--bs-red);
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+a {
+  color: var(--bs-red);
+}
+
+a {
+  color: var(--bs-red);
+  text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+    color: #fff;
+    background: var(--bs-red);
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+    color: #fff;
+    background: var(--bs-red);
+  }
+}
+
